@@ -1,0 +1,79 @@
+
+.Home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home__form{
+    margin-top: 10vh;
+    background: #fff;
+    position: relative;
+    width: 550px;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    transition: transform .1s ease-in-out;
+}
+
+.Home__list{
+    transition: all 1s ease-in-out;
+}
+
+.form__submitButton{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    font-size: 40px;
+    color: #fbc02d;
+    float: right;
+    cursor: pointer;
+    z-index: 20;
+    background: none;
+    border: none;
+}
+
+
+.form__input{
+    position: relative;
+    padding: 30px 20px 20px 20px;
+    margin: 10px 60px 10px 10px;
+    transition: opacity .3s ease-in-out;
+}
+
+.input__container{
+    position: relative;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: 0;
+    box-shadow: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.input__underline{
+    border-bottom: 3px solid #fbc02d;
+    width: 100%;
+    transition: width .6s ease-in-out;
+}
+
+
+.list__item{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.item__text{
+    font-size: 3rem;
+    color: black;
+    margin: 0;
+}
+
+.item__delete{
+    margin: 0;
+    background: none;
+    border: none;
+}
